@@ -3,11 +3,11 @@ from pwn import *
 from os import urandom
 
 #config
-host = "65.0.124.36"
-user = "student"
-password = "caesar"
+host = "##REDACTED##"
+user = "##REDACTED##"
+password = "##REDACTED##"
 team_name = 'g1v3m3chee53'
-team_pass = 'g1v3m3chee53'
+team_pass = '##REDACTED##'
 #Plaintext xor for the 2 different characterstics
 pt_xor = (
     '4008000004000000',
